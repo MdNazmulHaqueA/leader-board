@@ -12,6 +12,55 @@ body {
   box-sizing: border-box;
 }
 
+/* header styles */
+.header {
+  height: 94px;
+  background: #562eff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav {
+  width: 870px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-brand {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.brand-logo {
+  width: 40px;
+}
+.brand-name {
+  color: #ffffff;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 36px;
+}
+
+nav ul {
+  display: flex;
+  gap: 36px;
+}
+nav ul > li {
+  list-style: none;
+}
+nav ul > li > a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+/* main section */
 main {
   display: flex;
   /* align-items: center; */
@@ -26,6 +75,7 @@ main {
   margin-top: 21px;
   border-radius: 5px;
 }
+
 /* top players style */
 .top-players {
   margin-bottom: 30px;
@@ -148,3 +198,5 @@ hr {
   background-color: #ffe4e8;
   border-radius: 14.6913px;
 }
+
+/* Media Queries */
